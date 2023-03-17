@@ -11,7 +11,7 @@ var app = express();
 const mongoose = require("mongoose");
 const usersMiddleware = require("./middleware/users.middleware");
 const MONGODB_URL =
-  "mongodb+srv://lovemtp12:lovemtp12@cluster0.finfj.mongodb.net/APIQLSinhVien?retryWrites=true&w=majority";
+  "mongodb+srv://taquocitali:krGBPkgg4DpbuQPw@cluster0.a6vysmx.mongodb.net/?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
